@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 564e5b75979844540bec316490c0438c, type: 3}
+  m_Name: SoundDatabase
+  m_EditorClassIdentifier: 
+  masterMixerGroup: {fileID: 24300002, guid: fd96ca5460b058d45ad2f35c63b3421e, type: 2}
+  mixerGroupDataArray:
+  - mixerGroupName: BGM
+    mixerGroup: {fileID: 1148178140502443927, guid: fd96ca5460b058d45ad2f35c63b3421e,
+      type: 2}
+    sounds:
+    - soundName: lobby_bgm
+      soundClip: {fileID: 8300000, guid: 863c27f01502ffa4fbf3a4127ad07cce, type: 3}
+    - soundName: main_bgm
+      soundClip: {fileID: 8300000, guid: cece06c86bb474244afaefbca0d8473a, type: 3}
+  - mixerGroupName: SFX
+    mixerGroup: {fileID: 7461867174348007851, guid: fd96ca5460b058d45ad2f35c63b3421e,
+      type: 2}
+    sounds:
+    - soundName: click_normal
+      soundClip: {fileID: 8300000, guid: 2e3c678e3dbe03c47b105316e27eaa66, type: 3}
+    - soundName: click_wrong
+      soundClip: {fileID: 8300000, guid: 24c585d68b5815d4d934718a662950be, type: 3}
