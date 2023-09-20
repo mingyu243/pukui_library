@@ -1,0 +1,16 @@
+{
+  "name": "com.pukui.library",
+  "version": "0.0.0",
+  "displayName": "Package Example",
+  "description": "This is an example package",
+ "keywords": [
+    "keyword1",
+    "keyword2",
+    "keyword3"
+  ],
+  "author": {
+    "name": "Pukui",
+    "email": "jmg6017@naver.com",
+    "url": "https://mingyu0403.tistory.com/"
+  }
+}
