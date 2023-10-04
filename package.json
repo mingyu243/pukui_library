@@ -1,16 +1,28 @@
 {
-  "name": "com.pukui.library",
-  "version": "0.0.0",
-  "displayName": "Package Example",
-  "description": "This is an example package",
- "keywords": [
-    "keyword1",
-    "keyword2",
-    "keyword3"
-  ],
-  "author": {
-    "name": "Pukui",
-    "email": "jmg6017@naver.com",
-    "url": "https://mingyu0403.tistory.com/"
-  }
+    "name": "com.pukui.library",
+    "version": "0.0.0",
+    "displayName": "Pukui Library",
+    "description": "This is the Pukui Game Framework",
+    "keywords": [
+        "keyword1",
+        "keyword2",
+        "keyword3"
+    ],
+    "author": {
+        "name": "Pukui",
+        "email": "jmg6017@naver.com",
+        "url": "https://mingyu0403.tistory.com/"
+    },
+    "samples": [
+        {
+            "displayName": "Sample Managers Scripts",
+            "description": "This is master class that manages various manager class.",
+            "path": "Samples~/Sample_ManagersScript"
+        },
+        {
+            "displayName": "Demo Sound Manager",
+            "description": "How to use Sound Manager class.",
+            "path": "Samples~/Demo_SoundManager"
+        }
+    ]
 }

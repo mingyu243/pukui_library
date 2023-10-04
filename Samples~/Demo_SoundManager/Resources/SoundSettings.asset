@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bea03f137dfa9c40a4e1fdeff5c5c5b, type: 3}
   m_Name: SoundSettings
   m_EditorClassIdentifier: 
+  _soundSettingsFileName: SoundSettings
   _database: {fileID: 11400000, guid: 6e431e1b5e7bcef40a5151c5b0a1fa22, type: 2}
   _controllerMaxSize: 3
-  _controllerIdleKillDuration: 0

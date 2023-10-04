@@ -1,7 +1,7 @@
 using Pukui.Sound;
 using UnityEngine;
 
-public class Managers : SingletonMono<Managers>
+public class SampleManagers : SingletonMono<SampleManagers>
 {
     SoundManager _sound = new SoundManager();
 
